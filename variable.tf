@@ -1,9 +1,9 @@
-variable "aws_access_keys" {
+/*variable "aws_access_keys" {
 type = string
   }
 variable "aws_secret_access_keys" {
       type =string
-}
+}*/
 variable "aws_region" {
   description = "AWS region"
   default     = "us-east-1"
