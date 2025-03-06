@@ -8,5 +8,6 @@ terraform {
 }
 
 provider "aws" {
+   aws_access_keys
   region = "us-east-1"  # Change region if needed
 }
