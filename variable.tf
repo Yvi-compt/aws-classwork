@@ -4,6 +4,11 @@ type = string
 variable "aws_secret_access_keys" {
       type =string
 }*/
+variable "bucket_name" {
+  type        = string
+  description = "The name of the S3 bucket"
+}
+
 variable "aws_region" {
   description = "AWS region"
   default     = "us-east-1"
