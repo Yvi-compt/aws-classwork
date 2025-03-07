@@ -1,5 +1,6 @@
 resource "aws_s3_bucket" "my_bucket" {
-  bucket = "yvi-bucket"  # Change to a unique name
+  bucket = var.bucket_name # Change to a unique name
+  acl    = "private"  
 
   tags = {
     Name        = "MyBucket"
